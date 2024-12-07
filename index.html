@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Heartwarmers Project: Keeping Homeless People Alive in Winter</title>
+    <meta name="description" content="Learn about the Heartwarmers Project, an initiative to collect and distribute heated water bottles to homeless people during winter, and how businesses can collaborate with churches and non-profits to participate.">
+    <meta name="keywords" content="homeless, heartwarmers, water bottles, winter, warmth, safety, businesses, community, inclusion">
+    <link rel="canonical" href="https://aachips.co/heartwarmers/index.html">
+    <meta property="og:image" content="assets/heartwarmer-logo.png">
+    <meta name="twitter:image" content="assets/heartwarmer-logo.png">
+    <meta name="author" content="A. A. Chips">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/heartwarmers.css">
+    <script src="js/heartwarmers.js" defer></script>
+    <script src="js/blog-posts.json" type="application/json"></script>
+  </head>
+  <body>
+    <div id="wrapper" class="borderbox">
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          injectHeader();
+          includeFooter();
+          includeKickstarterPledges();
+          createBlogPostSection('blog-post-section', 'js/blog-posts.json');
+        });
+      </script>
+      <main>
+        <section>
+          <div class="about">
+            <div>
+              <h2>About</h2>
+              <p>This website aims to prevent freezing deaths this winter. It offers resources for helpers, businesses, and people at risk. The long-term goal is to develop an app connecting those at risk with essential resources.</p>
+            </div>
+            <img src="assets/heartwarmer-hor-333.png" alt="Heartwarmer emblem with bubbling water heart logo." width="512" height="238">
+          </div>
+
+          <div class="dark-bg" id="how-it-works">
+            <h2>How it Works</h2>
+            <p>Heartwarmers is a project that collects and distributes reusable bottles with hot liquids to those in need during the winter months. It's a collaborative effort between local businesses, non-profits, and churches to provide warmth and comfort to vulnerable individuals. The project is open source and not-for-profit.</p>
+          </div>
+
+          <div id="card-section">
+            <h2 class="center">Three levels of Engagement</h2>
+
+            <a class="card">
+              <h3>Level 1: Individual</h3>
+              <p>We'll show you how to create and personalize care packages for those in need, even on a budget. We'll also connect you with resources for bulk item donations.</p>
+              <button class="modal-button" data-modal="email-pdf-container" data-modal-backdrop="emailPdfBackdrop">Email PDF</button>
+            </a>
+
+            <a href="resources.html" class="card">
+              <h3>Level 2: Business</h3>
+              <p>Businesses and nonprofits can use our toolkit to provide essential amenities like warmth, charging stations, and food to those in need. Organizations with free public offerings can also add themselves to our interactive map.</p>
+              <div class="button">Resources</div>
+            </a>
+
+            <a href="develop.html" class="card">
+              <h3>Level 3: The Technology</h3>
+              <p>We're creating an app to connect people experiencing homelessness with resources. Your feedback is vital to make this tool truly helpful. Check out our mobile prototype and learn how you can contribute to this open source project.</p>
+              <div class="button">Prototype</div>
+            </a>
+          </div>
+        </section>
+        <section id="blog">
+          <h2 class="center">Blog Posts</h2>
+          <div id="blog-post-section" class="blog-cards"></div>
+        </section>
+
+        <!-- <div class="modal-backdrop" id="emailPdfBackdrop">
+          <div class="modal">
+            <div class="modal-content" id="email-pdf-container">
+              <button class="close-button">&times;</button>
+            </div>
+          </div>
+        </div> -->
+      </main>
+    </div>
+  </body>
+</html>

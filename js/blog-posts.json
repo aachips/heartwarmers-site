@@ -1,0 +1,102 @@
+{
+"posts": [
+  {
+    "id": "1",
+    "title": "Letter to City Council on Affordable Housing & Homelessness",
+    "blurb": "Study after study.. It's cheaper on both taxpayers and municipalities to just give homeless people homes and provide for their living",
+    "content": "../markdown/city-council-letter.md",
+    "author": "April Chips",
+    "date": "YYYY-MM-DD",
+    "preview": {
+      "thumbnail": "assets/thumbnails/sleeping-concrete.jpg",
+      "alt-text": "Person sleeping on concrete in urban environment.",
+      "summary": "Brief summary of the post",
+      "tags": ["tag1", "tag2", "tag3"]
+    }
+  },
+  {
+    "id": "2",
+    "title": "Tips for Staying Warm from Former Homeless Person",
+    "blurb": "The founder of this site used to be homeless. Heartwarmers is a project that seeks to prevent death by freezing every Winter. There are many methods you can take to prevent from freezing to death.",
+    "content": "../markdown/heartwarmers.md",
+    "author": "April Chips",
+    "date": "YYYY-MM-DD",
+    "preview": {
+      "thumbnail": "assets/thumbnails/heartwarmer-logo.png",
+      "alt-text": "Heartwarmers logo.",
+      "summary": "Brief summary of the post",
+      "tags": ["tag1", "tag2", "tag3"]
+    }
+  },
+  {
+    "id": "3",
+    "title": "Hobo Code of Conduct",
+    "blurb": "At the 1889 National Hobo Convention in St. Louis, a strict ethical code was established for all hobos to follow. Here are some tips we could all use, no matter where you are in the world.",
+    "content": "../markdown/hobo-code.md",
+    "author": "Author Name",
+    "date": "YYYY-MM-DD",
+    "preview": {
+      "thumbnail": "assets/thumbnails/hobos.jpg",
+      "alt-text": "Group of hobo people.",
+      "summary": "Brief summary of the post",
+      "tags": ["tag1", "tag2", "tag3"]
+    }
+  },
+  {
+    "id": "4",
+    "title": "Austin experimented with giving people $1,000 a month. They spent the no-strings-attached cash mostly on housing, a study found.",
+    "blurb": "A guaranteed basic income plan in one of Texas's largest cities reduced rates of housing insecurity and homelessness by 50 percent.",
+    "content": "../markdown/austin-ubi.md",
+    "author": "Kenneth Niemeyer",
+    "date": "YYYY-MM-DD",
+    "preview": {
+      "thumbnail": "assets/thumbnails/money.jpg",
+      "alt-text": "Money large bills.",
+      "summary": "Brief summary of the post",
+      "tags": ["tag1", "tag2", "tag3"]
+    }
+  },
+  {
+    "id": "5",
+    "title": "From One Vice to Another: Understanding Cross Addiction in Recovery",
+    "blurb": "Have you ever heard the phrase 'data is the plural of anecdote'? In addiction recovery circles, it often comes up when discussing cross addiction, a topic with very little published research, but..",
+    "content": "../markdown/cross-addiction.md",
+    "author": "Author Name",
+    "date": "YYYY-MM-DD",
+    "preview": {
+      "thumbnail": "assets/thumbnails/smoke.jpg",
+      "alt-text": "Person smoking a cigarette.",
+      "summary": "Brief summary of the post",
+      "tags": ["tag1", "tag2", "tag3"]
+    }
+  },
+  {
+    "id": "6",
+    "title": "Free Money for Everyone? Debunking Universal Basic Income (UBI) Myths",
+    "blurb": "Universal Basic Income is a when the government gives every citizen a sum of money each month so all have a basic safety net of financial security.",
+    "content": "../markdown/ubi-myths.md",
+    "author": "Author Name",
+    "date": "YYYY-MM-DD",
+    "preview": {
+      "thumbnail": "assets/thumbnails/roll-money.jpg",
+      "alt-text": "Person rolling money bills.",
+      "summary": "Brief summary of the post",
+      "tags": ["tag1", "tag2", "tag3"]
+    }
+  },
+  {
+    "id": "7",
+    "title": "Rent Roulette: Can Minimum Wage Afford Your Apartment?",
+    "blurb": "The average rent for a one-bedroom apartment in the US is roughly $1,927. To comfortably afford that rent using the 30% rule, we'd need a minimum wage of $37.88 per hour.",
+    "content": "../markdown/rent-too-high.md",
+    "author": "Author Name",
+    "date": "YYYY-MM-DD",
+    "preview": {
+      "thumbnail": "assets/thumbnails/rent.jpg",
+      "alt-text": "Apartment building",
+      "summary": "Brief summary of the post",
+      "tags": ["tag1", "tag2", "tag3"]
+    }
+  }
+]
+}

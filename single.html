@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Heartwarmers Project: Keeping Warm this Winter</title>
+    <meta name="description" content="Learn about the Heartwarmers Project, an initiative to collect and distribute heated water bottles to homeless people during winter, and how businesses can collaborate with churches and non-profits to participate.">
+    <meta name="keywords" content="homeless, heartwarmers, water bottles, winter, warmth, safety, businesses, community, inclusion">
+    <link rel="canonical" href="https://aachips.co/heartwarmers/single.html">
+    <meta property="og:image" content="assets/heartwarmer-logo.png">
+    <meta name="twitter:image" content="assets/heartwarmer-logo.png"> 
+    <meta name="author" content="A. A. Chips">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/heartwarmers.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="js/heartwarmers.js" defer></script>
+    <script src="js/blog-posts.json" type="application/json"></script>
+  </head>
+  <body>
+    <div id="wrapper" class="borderbox">
+      <main>
+        <!-- <h1 id="post-title"></h1> -->
+        <div id="post-content"></div>
+
+        <section id="blog">
+          <h2 class="center">Blog Posts</h2>
+          <div id="blog-post-section" class="blog-cards"></div>
+        </section>
+      </main>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        injectHeader();
+        includeFooter();
+        includeKickstarterPledges();
+        createBlogPostSection('blog-post-section', 'js/blog-posts.json');
+        renderPost(postId);
+      });
+      let postId = new URLSearchParams(window.location.search).get('id');
+    </script>
+  </body>
+</html>
+
+

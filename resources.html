@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Heartwarmers Project: Keeping Warm this Winter</title>
+    <meta name="description" content="Learn about the Heartwarmers Project, an initiative to collect and distribute heated water bottles to homeless people during winter, and how businesses can collaborate with churches and non-profits to participate.">
+    <meta name="keywords" content="homeless, heartwarmers, water bottles, winter, warmth, safety, businesses, community, inclusion">
+    <link rel="canonical" href="https://aachips.co/heartwarmers/resources.html">
+    <meta property="og:image" content="assets/heartwarmer-logo.png">
+    <meta name="twitter:image" content="assets/heartwarmer-logo.png">
+    <meta name="author" content="A. A. Chips">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/heartwarmers.css">
+    <script src="js/heartwarmers.js" defer></script>
+    <script src="js/blog-posts.json" type="application/json"></script>
+  </head>
+  <body>
+    <div id="wrapper" class="borderbox">
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          injectHeader();
+          includeFooter();
+          includeKickstarterPledges();
+          createBlogPostSection('blog-post-section', 'js/blog-posts.json');
+        });
+      </script>
+      <main role="main" tabindex="-1">
+        <section>
+          <div class="about">
+            <div>
+              <h2>Heartwarmers - Resources</h2>
+              <p>This page contains various resources for organized action.</p>
+            </div>
+            <img src="assets/heartwarmer-hor-333.png" alt="heartwarmers emblem with bubbling water heart logo." width="512" height="238">
+          </div>
+          <div id="resource-cards" class="card-section">
+            <a href="https://discord.gg/AQSNf7CPc5" class="card">
+              <h3>Discord</h3>
+              <p>Join our Discord Channel to connect, chat, & collaborate with others.</p>
+              <img src="assets/icons/discord.png" alt="Discord" width="64" height="64">
+            </a>     
+            <div class="card" id="email-pdf-button">
+              <h3>Advocacy Guide</h3>
+              <p>Advocacy Guide Sign up with Email</p>
+              <button class="modal-button" data-modal="email-pdf-container" data-modal-backdrop="emailPdfBackdrop">Email PDF</button>
+            </div>    
+            <a href="https://github.com/aachips/heartwarmers.git" class="card">
+              <h3>Github Repo</h3>
+              <p>Open Code Repository for Developers</p>
+              <img src="assets/icons/github.png" alt="GitHub" width="64" height="64">
+            </a>    
+          </div>
+        </section>
+        <section id="offerings">
+          <div class="dark-bg">
+            <h2>Examples of Free Offerings for Businesses</h2>
+            <p>Here are some free offerings organizations can provide to the at-risk public for free:</p>
+            <ul>
+              <li>Free Indoor Seating & Wifi</li>
+              <li>Free Hot Water / Coffee</li>
+              <li>Free Phone Charging Outlets</li>
+              <li>Free / Pay-It-Forward meals</li>
+              <li>Paid Odd Labor</li>
+              <li>Showers and/or Laundry </li>
+              <li>Free Groceries </li>
+              <li>Potable Drinking Water</li>
+              <li>Public Restrooms (Unisex extra helpful)</li>
+              <li>Clothing Closet - Winter Clothes, blankets, sleeping bags</li>
+              <li>Free Pet Food / Pet Meals</li>
+              <li>Hygiene Products</li>
+              <li>Open Job Interviews</li>
+              <li>Counseling & Case Management</li>
+              <li>Career Services</li>
+              <li>Transportation Vouchers</li>
+            </ul>
+            <p class="center">Remember, even small acts of kindness can make a big difference in the lives of people in need.</p>
+          </div>
+          <div id="directory">
+            <h2>Register Directory Locations</h2>
+            <p>Are you a business owner at somewhere that can offer something for free to the at-risk public? Are you someone who knows some helpful spots around your area? Register them one at a time on the Directory Form. We are starting our Directory and Interactive Map in Western North Carolina, but will expand to more localities as directory locations are registered.</p><br>
+            <p>If your place of business is registered wrongly, please contact us and we will promptly take it off. We are not liable for outcomes and are simply a helpful directory service.</p><br>
+
+            <button class="modal-button" data-modal="register-form-container" data-modal-backdrop="regFormBackdrop">Register a Organization / Business / Non-profit</button>
+            <p>Thank you for helping us connect those in need with essential resources!</p>
+            <p><i>This information will be verified by Heartwarmers volunteers before being added to the interactive map. Inclusion on the map is not guaranteed and is subject to verification and approval by Heartwarmers.</i></p>
+            <h2>Volunteer Role Needed: Phone Banking Businesses</h2>
+            <p>Both community members and business owners can add a location to our directory. Before listing, we will call that location and confirm permission to list on our interactive map.</p>
+            <p><i>More Coming Soon!</i></p>
+          </div>
+        </section>
+        <section id="blog">
+          <h2 class="center">Blog Posts</h2>
+          <div id="blog-post-section"></div>
+        </section>
+
+        <div class="modal-backdrop" id="regFormBackdrop">
+          <div class="modal">
+            <div class="modal-content" id="register-form-container">
+              <button class="close-button">&times;</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="modal-backdrop" id="emailPdfBackdrop">
+          <div class="modal">
+            <div class="modal-content" id="email-pdf-container">
+              <button class="close-button">&times;</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

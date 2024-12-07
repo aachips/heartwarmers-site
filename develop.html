@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Heartwarmers Project: Keeping Warm this Winter</title>
+    <meta name="description" content="Learn about the Heartwarmers Project, an initiative to collect and distribute heated water bottles to homeless people during winter, and how businesses can collaborate with churches and non-profits to participate.">
+    <meta name="keywords" content="homeless, heartwarmers, water bottles, winter, warmth, safety, businesses, community, inclusion">
+    <link rel="canonical" href="https://aachips.co/heartwarmers/develop.html">
+    <meta property="og:image" content="assets/heartwarmer-logo.png">
+    <meta name="twitter:image" content="assets/heartwarmer-logo.png">
+    <meta name="author" content="A. A. Chips">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/heartwarmers.css">
+    <script src="js/heartwarmers.js" defer></script>
+    <script src="js/blog-posts.json" type="application/json"></script>
+  </head>
+  <body>
+    <div id="wrapper" class="borderbox">
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          injectHeader();
+          includeFooter();
+          includeKickstarterPledges();
+          createBlogPostSection('blog-post-section', 'js/blog-posts.json');
+        });
+      </script>
+      <main>
+
+        <div class="about">
+          <div>
+            <h2>Heartwarmers Prototype: Can Tech Enable a Kinder Future?</h2>
+            <p>This interactive mobile app prototype demonstrates how Heartwarmers can connect people in need with critical resources in real-time. While still in its early stages, this prototype offers a glimpse into the potential of this powerful tool.</p>
+          </div>
+          <img src="assets/heartwarmer-hor-333.png" alt="Heartwarmer emblem with bubbling water heart logo." width="512" height="238">
+        </div>
+        <div id="prototype-buttons">
+          <a href="/prototype/index.html" target="_blank" class="button">Launch Prototype - Mobile Devices Only</a>
+          <a href="/prototype/index.html" target="_blank" class="button">Launch Prototype - Desktop View - Coming Soon</a>
+        </div>
+        <br>
+        <div id="prototype-info">
+          <p>Remember: This is just a prototype. The final app will have even more features and functionality to empower those in need and foster a stronger, more connected community.</p>
+          <p>We welcome everyone to participate in shaping the future of Heartwarmers. Whether you're a tech expert, a community organizer, or simply someone who cares, your voice matters.</p><br>
+          <p>Join us on this journey to make a real difference.</p>
+          
+          <h3 class="center">Key Features (Planned)</h3>
+          <ul class="non-list">
+            <li>
+              <h4>Resource Locator</h4> 
+              <img src="assets/icons/gps.png" alt="GPS icon" width="64" height="64">
+              <!-- <a href="https://www.flaticon.com/free-icons/resources" title="resources icons">Resources icons created by Sumitsaengtong - Flaticon</a> -->
+              <p>Quickly find nearby shelters, food pantries, warming centers, and other essential services.</p>
+            </li>
+            <li>
+              <h4>Community Board</h4>
+              <img src="assets/icons/board.png" alt="board icon" width="64" height="64">
+              <!-- <a href="https://www.flaticon.com/free-icons/council" title="council icons">Council icons created by Fusion5085 - Flaticon</a> -->
+              <p>Share information, requests, and offers of support within a safe and moderated environment.</p>
+            </li>
+            <li>
+              <h4>Personalized Alerts</h4> 
+              <img src="assets/icons/warning.png" alt="warning icon" width="64" height="64">
+              <!-- <a href="https://www.flaticon.com/free-icons/important" title="important icons">Important icons created by Rahat - Flaticon</a> -->
+              <p>Receive notifications about relevant resources and opportunities based on your location and needs.</p>
+            </li>
+            <li>
+              <h4>Volunteer Opportunities</h4> 
+              <img src="assets/icons/opportunity.png" alt="opportunity icon" width="64" height="64">
+              <!-- <a href="https://www.flaticon.com/free-icons/volunteer" title="volunteer icons">Volunteer icons created by gravisio - Flaticon</a> -->
+              <p>Easily discover ways to get involved and make a difference in your community.</p>
+            </li>
+          </ul>
+          <h3>Get Involved:</h3>
+          <ul>
+            <li>Explore the Prototype: Open the prototype on your mobile device to experience its current functionality and provide valuable feedback.</li>
+            <li>Join the Development Team: If you're a developer, contribute your skills to this open-source project on Github.</li>
+            <li>Participate in the Community: Share your ideas, insights, and experiences on our Discord channel.</li>
+            <li>Support the Kickstarter Campaign: Help us bring this vital tool to life by backing our Kickstarter campaign. Your support will fund the development and implementation of key features.</li>
+          </ul>
+        </div>
+        
+        <form id="contact-form-heartwarmers" action="php/contact-form-handler.php" method="post">
+          <h2>Submit Suggestions & Comments</h2>
+          <p>Have an idea or feedback for the next phase of the application? Submit it below through the contact form:</p>
+          
+          <label for="name-heartwarmers">Name:</label>
+          <input type="text" id="name-heartwarmers" name="name-heartwarmers" required>
+
+          <label for="email-heartwarmers">Email:</label>
+          <input type="email" id="email-heartwarmers" name="email-heartwarmers" required>
+
+          <label for="message-heartwarmers">Message:</label>
+          <textarea id="message-heartwarmers" name="message-heartwarmers" required rows="15" cols="100"></textarea>
+          
+          <input type="submit" value="Send Message" class="button">
+        </form>
+
+        <section id="blog">
+          <h2 class="center">Blog Posts</h2>
+          <div id="blog-post-section" class="blog-cards"></div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
